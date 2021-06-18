@@ -1,6 +1,35 @@
-.container {
-  border: 5px solid #ffcc5c;
-  display: flex;
-  height: 100%;
-  align-items: center;
-}
+
+    /* css: */
+    /* -Make the heading tags bold and purple */
+    /* -Make the paragraph tags green with some words italicized */
+    /* -Make the background color of the entire document black */
+    /* -Align the two divs so that they are side by side, and centered horizontally as well as vertically.  */
+
+    body{
+        background-color: black
+    }
+    h1{
+        color:purple;
+        font-weight: bold;
+    }
+    p{
+        color: green;
+    }
+    #italics{
+        font-style: italic;
+    }
+    .div{ 
+        display: flex;
+    }
+    .col2{
+    margin: 20px;
+    text-align: center;
+    }
+    .col1{
+       margin: 20px;
+       text-align: center;
+    }
+    .col2{
+        float: left;
+        text-align: center;
+    }
