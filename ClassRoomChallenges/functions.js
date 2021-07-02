@@ -134,3 +134,50 @@ function convert (ounces){
 convert(10);
 convert(1);
 convert(7);
+
+/*
+    Challenge:
+    
+    Make a tip calculator using a function
+    Have it return the value 
+    Capture that returned value in a variable
+    Print that variable
+*/
+
+function tip(subtotal, tipAmt){
+    return `The amount to tip is ${subtotal * tipAmt}, which brings the total to ${(subtotal*tipAmt)+subtotal}.`
+
+}
+let totalPayment = tip(20, .2)
+console.log(totalPayment)
+
+// ALTERNATE
+
+function tipCalculator (percent, billTotal){
+    let tip = billTotal *(percent/100)
+    return tip.toFixed(2) //This reduces the decimal to 2 decimal places
+}
+let totalTip = tipCalculator(25, 65.37)
+console.log(`$${totalTip}`)//Put the dollar sign in the string before the calculated tip amount
+
+/*
+Challenge:
+    Write a function that takes two parameters:
+    One parameter is for a first name,
+    The other parameter is for the last name;
+    Have them come together in a variable inside the function.
+    console.log 'Hello, my name is Maxwell Smart.'
+    Call your function 
+*/
+function myName (first, last){
+    let fullName = first + ' ' +last
+    console.log(`Hello, my name is ${fullName}.`)
+}
+myName('Maxwell', 'Smart')
+myName('Mary', 'Poppins')
+
+function areaTrapezoid (b1, b2, h){
+	areaCalc = 0.5*(b1 +b2)*h
+console.log(`The area of a trapezoid is ${areaCalc} square inches`)
+}
+areaTrapezoid(2,3,1.5)

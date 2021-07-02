@@ -1,0 +1,24 @@
+  .donations-container{
+    margin: 50px;
+    font-family: var(--font-one);
+    text-align: center;
+    color: #272727;
+  }
+  .progress{
+        font-size: 15px;
+        text-align: middle;
+  }
+
+
+  <!-- Challenge -->
+      <!-- Create a heading 1 tag that says "Donations". Make the heading have a 
+      an Oswald Font and centered. Underneath your heading, create a paragraph 
+      tag that has some lorem impsum and is centered.  
+      
+      Then create a progress bar using a progress bar component. 
+      The progress bar should have multiple bars. All of the bars should be 
+      striped and animated, except for the last bar. The first bar will have a 
+      width of 15%, be yellow, and say "15% Donated". The second bar will have a 
+      width of 30%, be green, and say "20,000 Trees Saved". The third bar will 
+      NOT be animated nor striped. Make it blue, have a width of 55%, and say 
+      "50,000 More Donations to Reach Our Goal"  -->

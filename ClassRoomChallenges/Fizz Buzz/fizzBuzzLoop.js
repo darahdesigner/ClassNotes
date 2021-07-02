@@ -24,7 +24,7 @@ for(let i = 0; i<=100; i++){
 // -Have the function take in a parameter
 // -The parameter should determine how many times to loop executes
 function fizzBuzz(num){
-    for(let i = num; i<=100; i++){
+    for(let i = 0; i<=num; i++){
         if(i%15==0){
             console.log("Fizz Buzz");
         }else if(i%3==0){
