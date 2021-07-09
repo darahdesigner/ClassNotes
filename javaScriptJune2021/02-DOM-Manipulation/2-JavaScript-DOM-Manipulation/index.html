@@ -8,6 +8,10 @@
 </head>
 <body>
     <!--All of our HTML code will go here-->
+    <label for = "nameInput"> Enter Your Name:</label>
+    <input type="text" id="nameInput" placeholder="John Smith" />
+    <p>Welcome!</p>
+    <p>No name has been entered</p>
     <button id = "clickThisButton">I want to be clicked</button>
     <p id="testParagraph">Sample Text</p>
     <p class = "sampleClass">This paragraph has a class of "sampleClass"</p>
@@ -22,6 +26,13 @@
         details.target.style.backgroundColor="red";
         console.log(details);
 
+    });
+    document.getElementById('nameInput').addEventListener("keyup", (event) =>{
+        if(event.target.value ==="") {
+         document.getElementsByTagName("p")[1].innerText=`No name has been entered`;
+        } else {
+            document.getElementsByTagName("p")[1].innerText = `Everyone please welcome ${event.target.value} to the stage!`
+        }
     });
     var x = 10;
     console.log(x);
