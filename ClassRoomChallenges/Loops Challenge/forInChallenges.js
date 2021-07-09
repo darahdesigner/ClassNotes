@@ -123,3 +123,6 @@ for (character in fellowshipOfTheRing.members){
     console.log(`${character}'s name does not begin with a vowel`)}
     // } else {console.log(`${character}'s name does not begin with a vowel`)
     // }
+
+
+    console.log(37%2);
