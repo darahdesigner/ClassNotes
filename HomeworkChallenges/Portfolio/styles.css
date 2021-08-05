@@ -9,6 +9,8 @@
     src: url("Barlow_Condensed/BarlowCondensed-Medium.ttf");
 }
 #index{
+    display: flex;
+    flex-direction:column;
     background-image: url("coastCoverImage.png");
     background-repeat: no-repeat;
     max-width: 100%;
@@ -65,6 +67,12 @@ padding: 50px;
     font-family: BarlowCondensedBlack;
 
 }
+#webDevelopment{
+
+    background-color: #293747;
+    font-family: BarlowCondensedBlack;
+
+}
 
 .card-text{
    font-family: BarlowCondensedMedium;
@@ -77,6 +85,7 @@ padding: 50px;
 }
 
 #indexContent{
+    flex: 1 0 column;
     background-color: #FC7753;
     width: 33%;
     padding: 20px;
@@ -122,8 +131,14 @@ hr{
     color:#FC7753;
 }
 footer{
+position: fixed;
+left: 0;
+bottom: 0;
+width: 100%;
+text-align:right;
     background-color: #293747;
-    height: 142px;
+    height: 60px;
     color: #f2efea;
     font-family: BarlowCondensedMedium;
+    padding-right: 50px;
 }
