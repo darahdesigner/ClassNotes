@@ -21,7 +21,6 @@
 
 }
 #work{
-
     background-color: #293747;
     font-family: BarlowCondensedBlack;
 
@@ -31,16 +30,28 @@
     padding: 50px;
 }
 #about{
-
+    display: flex;
+    flex-flow: space-around;
+    flex-wrap: wrap;
     background-color: #293747;
     font-family: BarlowCondensedBlack;
 
 }
 #aboutContent{
-
-    color: #f2efea;
+    display: flex;
+    background-color: #f2efea;
+    color:#293747;
     font-family: BarlowCondensedMedium;
+    margin: 50px;
 
+}
+#aboutImage{
+    width: 1000px;
+    height: 120px;
+}
+#aboutImage img{
+    width: 100%;
+    height: auto;
 }
 #contact{
 
@@ -71,6 +82,7 @@ padding: 50px;
 
     background-color: #293747;
     font-family: BarlowCondensedBlack;
+    margin-bottom: 200px;
 
 }
 
