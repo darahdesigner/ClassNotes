@@ -18,10 +18,26 @@
     font-family: BarlowCondensedBlack;
 
 }
+#work{
+
+    background-color: #293747;
+    font-family: BarlowCondensedBlack;
+
+}
+#allWorkWrapper{
+    margin:auto;
+    padding: 50px;
+}
 #about{
 
-    background-color: #FC7753;
+    background-color: #293747;
     font-family: BarlowCondensedBlack;
+
+}
+#aboutContent{
+
+    color: #f2efea;
+    font-family: BarlowCondensedMedium;
 
 }
 #contact{
@@ -30,20 +46,28 @@
     font-family: BarlowCondensedBlack;
 
 }
-#work{
 
-    background-color: #84898f;
-    font-family: BarlowCondensedBlack;
-
+#contactContent{
+background:#FC7753;
+color: #293747;
+padding: 50px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ margin-top: 50px;
+ font-family: BarlowCondensedMedium;
+ font-size: 24px;
 }
+
 #graphicDesign{
 
     background-color: #293747;
     font-family: BarlowCondensedBlack;
 
 }
-.cardsRow{
-    padding: 20px;
+
+.card-text{
+   font-family: BarlowCondensedMedium;
     
 }
 .card{
@@ -94,9 +118,12 @@ a:hover{
     text-decoration: underline;
     font-weight: bold;
 }
-/* body{
+hr{
+    color:#FC7753;
+}
+footer{
     background-color: #293747;
-    background-color: #84898f;
-    background-color: #FC7753;
-    background-color: #F2EFEA;
-} */
+    height: 142px;
+    color: #f2efea;
+    font-family: BarlowCondensedMedium;
+}

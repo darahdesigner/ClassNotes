@@ -8,7 +8,7 @@
     <link rel = "stylesheet" href = "styles.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 </head>
-<body>
+<body id ="work">
     <div id="wrapper">
 
         <nav class="navbar sticky-top navbar-light bg-light">
@@ -19,22 +19,35 @@
               <a class="navbar-brand" href="contact.html">CONTACT</a>
             </div>
           </nav>
-        <h3>WORK</h3>
         <div id = "allWorkWrapper">
-        <div id = "workImages">
-            <a href = "webDevelopment.html"> <img src = "christopher-gower-m_HRfLhgABo-unsplash.jpg" alt = "coding laptop"></a>
-            <a href = "UXUI.html"> <img src = "halgatewood-com-tZc3vjPCk-Q-unsplash.jpg" alt = "ux ui phone layout drawings"></a>
-            <a href = "graphicDesign.html"> <img src = "team-fredi-4sq_STuClTA-unsplash.jpg" alt = "jar with label for branding example"></a>
-        </div>
-        <div id = "workText">
-            <a href = "webDevelopment.html"> <h5>Web Development</h5></a>
-            <a href ="UXUI.html"><h5>UX/UI</h5></a>
-            <a href = "graphicDesign.html"><h5>Graphic Design</h5></a>
-            <div id = "workTextDescriptions">
-                <p>Full stack web development using Javascript, HTML5 and CSS 3.</p>
-                <p>User focused ideation and design for accessibility and usability.</p>
-                <p>Clean, modern branding representing your organization in the best light.</p>
-            </div>
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+                <div class="col">
+                  <div class="card">
+                    <a href = "webDevelopment.html"><img src = "staticHulu.png" class="card-img-top" alt="Static layout webpage screenshot"></a>
+                    <div class="card-body">
+                      <a href = "webDevelopment.html"><h5 class = "card-title">Web Development</h5></a>
+                      <p class="card-text">Full stack web development using Javascript, HTML5 and CSS3.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                      <a href = "UXUI.html"><img src = "cafecitoVideoEmbed.jpg" class="card-img-top" alt="UXUI layout of video conference webpage."></a>
+                      <div class="card-body">
+                        <a href = "UXUI.html"><h5 class = "card-title">UX/UI</h5></a>
+                        <p class="card-text">User focused ideation and design for accessibility and usability.</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="card">
+                      <a href = "graphicDesign.html"><img src = "reboot.jpg" class="card-img-top" alt="Graphic design postcard"></a>
+                      <div class="card-body">
+                        <a href = "graphicDesign.html"><h5 class = "card-title">Graphic Design</h5></a>
+                        <p class="card-text">Clean, modern branding to represent your organiztion in the best light.</p>
+                      </div>
+                    </div>
+                  </div>
 
         </div>
     </div>
